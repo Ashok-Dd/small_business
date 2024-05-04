@@ -72,7 +72,7 @@
     <a class="home" href="P1.html"><strong>HOME</a>
     <h1>..... TABLES .....</h1>
     <div class="srkr">
-        <form action="bookings.html" method="post">
+        <form  action="bookings.html" method="get">
             <label for="name">Enter your name:</label>
             <input type="text" id="name" name="name" required>
             
@@ -104,10 +104,10 @@
             <label for="checkin">Enter check-in date:</label>
             <input type="date" id="checkin" name="checkin" required>
             
-            <label for="checkout">Enter check-out date:</label>
-            <input type="date" id="checkout" name="checkout" required>
+            <label for="checkout">Enter booking time:</label>
+            <input type="time" id="checkout" name="checkout" required>
             
-            <a href="bookings.html" style="text-decoration: none;"><button type="submit">BOOK</button></a>
+            <button type="submit" name="button" id="button">BOOK</button>
         </form>
     </div>
 </body>

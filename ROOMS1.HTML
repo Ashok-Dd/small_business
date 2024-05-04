@@ -57,7 +57,7 @@
         button:hover {
             background-color: #0056b3;
         }
-        a {
+        .home {
             text-decoration: none;
             color: black; /* Set link color to white for better visibility */
             padding: 5px 10px;
@@ -70,10 +70,10 @@
     </style>
 </head>
 <body>
-    <a href="P1.html"><strong>HOME</a>
+    <a class="home" href="P1.html"><strong>HOME</strong></a>
     <h1>..... ROOMS .....</h1>
     <div class="srkr">
-        <form action="bookings.html" method="post">
+        <form action="bookings.html" method="get">
             <label for="name">Enter your name:</label>
             <input type="text" id="name" name="name" required>
             
@@ -115,7 +115,7 @@
             <label for="checkout">Enter check-out date:</label>
             <input type="date" id="checkout" name="checkout" required>
             
-            <button type="submit">BOOK</button>
+           <button  type="submit" name="button" id="button">BOOK</button>
         </form>
     </div>
 </body>
